@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic calculator</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main>
+    <section class="display">
+      <div id="operations_view" class="full_calculation"></div>
+      <div id="result" class="result"><p>0</p></div>
+    </section>
+    <section class="keys">
+      <div class="column">
+        <button class="button" onclick="addNumeral('7')">7</button>
+        <button class="button" onclick="addNumeral('4')">4</button>
+        <button class="button" onclick="addNumeral('1')">1</button>
+        <button class="button highlighted" onclick="cleanScreen()">C</button>
+      </div>
+      <div class="column">
+        <button class="button" onclick="addNumeral('8')">8</button>
+        <button class="button" onclick="addNumeral('5')">5</button>
+        <button class="button" onclick="addNumeral('2')">2</button>
+        <button class="button" onclick="addNumeral('0')">0</button>
+      </div>
+      <div class="column">
+        <button class="button" onclick="addNumeral('9')">9</button>
+        <button class="button" onclick="addNumeral('6')">6</button>
+        <button class="button" onclick="addNumeral('3')">3</button>
+        <button class="button" onclick="addNumeral('.')">.</button>
+      </div>
+      <div class="column operators">
+        <button class="button" onclick="addOperator('/')">÷</button>
+        <button class="button" onclick="addOperator('*')">x</button>
+        <button class="button" onclick="addOperator('-')">-</button>
+        <button class="button" onclick="addOperator('+')">+</button>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p>Developed with <spam class="heart">❤</spam> by <a href="https://github.com/schuansk/basic-calculator" target="_blank">Schuansk</a></p>
+    <p>v1.0</p>
+  </footer>
+
+  <script src="src/script.js"></script>
+</body>
+</html>
