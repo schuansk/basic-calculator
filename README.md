@@ -1,5 +1,5 @@
-# Simple calculator
-![Simple calculator icon](https://i.ibb.co/f8b4wN2/simple-calculator-icon.png)
+# Basic calculator
+![Basic calculator icon](https://i.ibb.co/f8b4wN2/simple-calculator-icon.png)
 ## About
 This is a calculator with basic commands to add, subtract, divide and multiply
 To make the user experience more fluid, the “equals” button has been removed, so every time a new number is added, the calculation takes place automatically
