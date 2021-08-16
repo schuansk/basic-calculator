@@ -7,7 +7,7 @@ To make the user experience more fluid, the “equals” button has been removed
 ## How to run
 Basically, you just need to clone the repository and open the **index.html** file in your browser.
 
-If you are using VSCode, you can also use the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+If you are using VSCode, you can also use the extension [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 ## To do
  - Delete only one number
  - Calculate percentage
